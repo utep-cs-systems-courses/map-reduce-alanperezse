@@ -42,11 +42,8 @@ each of the below number of threads
  / | Algorithm 1 | Algorithm 2
 --- | --- | ---
 1 thread: | 5.6102 seconds | 5.5728 seconds
-
 2 threads: | 5.6224 seconds | 5.5934 seconds
-
 4 threads: | 3.218 seconds | 2.8538 seconds
-
 8 threads: | 3.6164 seconds | 2.98 seconds
 
 ### Analysis:
