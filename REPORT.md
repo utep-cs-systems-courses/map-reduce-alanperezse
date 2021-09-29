@@ -37,15 +37,17 @@ and easy to understand.
 The following measurements are an average of running the script 5 times for
 each of the below number of threads
 
-            Algorithm 1         Algorithm 2
 
-1 thread:   5.6102 seconds      5.5728 seconds
 
-2 threads:  5.6224 seconds      5.5934 seconds
+ / | Algorithm 1 | Algorithm 2
+--- | --- | ---
+1 thread: | 5.6102 seconds | 5.5728 seconds
 
-4 threads:  3.218 seconds       2.8538 seconds
+2 threads: | 5.6224 seconds | 5.5934 seconds
 
-8 threads:  3.6164 seconds      2.98 seconds
+4 threads: | 3.218 seconds | 2.8538 seconds
+
+8 threads: | 3.6164 seconds | 2.98 seconds
 
 ### Analysis:
 The run with 4 threads seems to be the quickest. The CPU of my computer is
